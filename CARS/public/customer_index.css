@@ -1,0 +1,62 @@
+/* customer_index.css */
+
+.gallery-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 80%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.gallery-item {
+    text-align: center;
+    padding: 10px;
+}
+
+.image-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+h4 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Pagination button styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 8px 20px;
+    font-size: 1rem;
+    background-color: #00ADB5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #007f8f;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
